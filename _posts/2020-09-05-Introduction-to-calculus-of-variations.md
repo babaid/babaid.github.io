@@ -11,7 +11,7 @@ Definition: Let $$ \mathrm{V}$$ be a $$ \mathbb{K}  $$ Vectorspace. A mapping $$
 In the following let $$ \mathbb{K}=\mathbb{R} $$.
 
 Let's see an example:  
-$$ \mathrm{V} =  \{ x  \in   \mathscr{C}^1([ 0, 1])| \text{ x(0) = x(1) = 0} \}$$ $$ \italic{(1)} $$
+$$ \mathrm{V} =  \{ x  \in   \mathscr{C}^1([ 0, 1])| \text{ x(0) = x(1) = 0} \}$$
 $$ \mathcal{F} (x) = \int\limits_0^1 \sqrt{1+\dot{x}^2} \mathrm{d}x $$
 
 As you can see $$ \mathcal{F} $$ is a function of a function. You will see later on some more physical examples ("Action").
@@ -26,7 +26,7 @@ $$ \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t), \dot{x}(t)\big) \mat
 
 $$ \mathcal{L} \in \mathscr{C}^2 ([0, 1] \times \mathbb{R}^m \times \mathbb{R}^m, \mathbb{R}) $$ is called "Lagrange-function" or lagrangian, and $$ x : [0, 1] \rightarrow \mathbb{R}^m $$ is out of a suitable $$ \mathscr{C}^1 $$-functionspace $$ \mathrm{V} $$.
 
-Now we'll take a look at what happens if m=1 and V is $$ \mathrm{V} =  \{ x  \in   \mathscr{C}^2([ 0, 1])| \text{ x(0) = x(1) = 0} \}$$ $$ \italic{(1)} $$.
+Now we'll take a look at what happens if m=1 and V is $$ \mathrm{V} =  \{ x  \in   \mathscr{C}^2([ 0, 1])| \text{ x(0) = x(1) = 0} \}$$.
 
 Suppose we have a stationary point at $$ x \in \mathrm{V} $$, this means for all $$ h \in \mathrm{V} $$ that:\
 

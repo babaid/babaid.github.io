@@ -1,4 +1,4 @@
-title: Dark Reader
+title: Noted
 markdown: kramdown
 url: "babaid.github.io"
 baseurl: ""
@@ -6,7 +6,7 @@ baseurl: ""
 # for atom feed
 author:
   name: Dezsö Babai 
-  email: dev_sharad@outlook.com
+  email: manobacsi666@gmail.com
 
 plugins:
   - jekyll-paginate
@@ -38,4 +38,4 @@ defaults:
       layout: "post"
       permalink: /posts/:categories/:year/:month/:day/:title/
 
-exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
+exclude: ["LICENSE", "README.md"]

@@ -1,41 +1,37 @@
-title: Noted
+### your site title here
+
+title: The Dark Side
+
+permalink: /:title
+
+baseurl: /dark-side
+
+sass: 
+  style: compressed
+
+### exclude the instructions / write-up in the README.md
+exclude:
+- README.md
+
+highlighter: rouge
 markdown: kramdown
-url: "babaid.github.io"
-baseurl: ""
+### exclude the instructions / write-up in the README.md
 
-# for atom feed
-author:
-  name: Dezsö Babai 
-  email: manobacsi666@gmail.com
 
-plugins:
-  - jekyll-paginate
-  - jemoji
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-menus
+# Tracker
+analytics: UA-83979019-1
 
-paginate_path: "/page:num/"
+# Comments
+disqus-shortname: webjeda-demo
 
-paginate: 5
-
-collections_dir: all_collections
-collections:
-  posts:
-    output: true
-  projects:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "post"
-  - scope:
-      path: "_posts"
-    values:
-      layout: "post"
-      permalink: /posts/:categories/:year/:month/:day/:title/
-
-exclude: ["LICENSE", "README.md"]
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []

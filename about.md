@@ -1,9 +1,9 @@
 ---
-title: Dezsö Babai
-layout: about
-profile_pic: https://www.codingindian.codes/assets/uploads/pro.jpg
-profile_pic_alt: ''
-short_bio: Hi im Ronnie.
-
+layout: page
+title: About
 ---
-There is the place of my bio, wich wont exist.
+
+This is a dark theme suitable for hacker blogs. 
+
+[Demo](http://webjeda.com/dark-side/) [Repo](https://github.com/sharu725/dark-side)
+

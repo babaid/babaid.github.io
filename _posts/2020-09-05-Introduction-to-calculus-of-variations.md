@@ -18,9 +18,9 @@ As you can see $$ \mathcal{F} $$ is a function of a function. You will see later
 
 The basic problem of calculus of variations is to minimize a function, if necessary under constraints. In order that $$ \mathcal{F} $$ can have a minimum at $$ x \epsilon \mathrm{V} $$ in $$ \mathrm{U} \subseteq \mathrm{V} $$, it has to fulfill (if $$ \mathcal{F} \epsilon \mathscr{C}^1$$ ) : \
 $$
- \frac{\mathrm d}{\mathrm d x }\mathcal{F}( x + \varepsilon  h ) |_{\varepsilon=0}  = F'(x)h = 0 $$ $$ \forall h \varepsilon \mathcal{F}$$,for wich $$x +\varepsilon h \in \mathrm{U}$$, for sufficient small $$ \varepsilon \neq 0 $$. \
+ \frac{\mathrm d}{\mathrm d x }\mathcal{F}( x + \varepsilon  h ) |_{\varepsilon=0}  = F'(x)h = 0 $$ $$ \forall h \varepsilon \mathcal{F}$$,for wich $$x +\varepsilon h \in \mathrm{U}$$, for sufficient small $$ \varepsilon \neq 0 $$. 
 
- This means that x has to be a stationary point. The most "common" and widely seen class of functionals are of the form:\
+ This means that x has to be a stationary point. The most "common" and widely seen class of functionals are of the form:
 
 $$ \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t), \dot{x}(t)\big) \mathrm{d} t $$
 

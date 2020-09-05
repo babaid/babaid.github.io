@@ -31,7 +31,7 @@ $$ \mathrm{V} = { x \in  \mathscr{C}^2 ([ 0, 1])| \text{ x(0) = x(1) = 0} }$$.
 
 Suppose we have a stationary point at $$ x \in \mathrm{V} $$, this means for all $$ h \in \mathrm{V} $$ that: 
 
- \\( 0 = \frac{\mathrm d}{\mathrm d x } \mathcal{F} ( x + \varepsilon  h ) |_{\varepsilon = 0}  =  \int\limits_0^1 \mathcal{L} \big( t, x(t) + \varepsilon h(t) , \dot{x} (t) + \varepsilon \dot{h} (t) \big) |_{ \varepsilon = 0} \mathrm{d} t \\)
+ \\( 0 = \frac{\mathrm d}{\mathrm d x } \mathcal{F} ( x + \varepsilon  h ) |_{\varepsilon = 0} \\) = \\( \int\limits_0^1 \mathcal{L} \big( t, x(t) + \varepsilon h(t) , \dot{x} (t) + \varepsilon \dot{h} (t) \big) |_{ \varepsilon = 0} \mathrm{d} t \\)
 
 
 

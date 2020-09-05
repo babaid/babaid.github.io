@@ -22,5 +22,6 @@ $$
 
  This means that x has to be a stationary point. The most "common" and widely seen class of functionals are of the form:\
 
-$$ \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t), \dot{x}(t)\big) \mathrm{d} t $$ 
+$$ \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t), \dot{x}(t)\big) \mathrm{d} t $$
 
+$$ \mathcal{L} \in \mathscr{C}^2 ([0, 1] \times \mathbb{R}^m \times \mathbb{R}^m, \mathbb{R}) $$ is called "Lagrange-function" or lagrangian, and $$ x : [0, 1] \rightarrow \mathbb{R}^m $$ is out of a suitable $$ \mathscr{C}^1 $$-functionspace $$ \mathrm{V} $$.

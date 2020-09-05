@@ -3,8 +3,9 @@
 title: The Dark Side
 
 permalink: /:title
+url: babaid.github.io
 
-baseurl: /dark-side
+baseurl: 
 
 sass: 
   style: compressed

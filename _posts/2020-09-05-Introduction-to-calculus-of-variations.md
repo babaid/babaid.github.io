@@ -32,4 +32,8 @@ Suppose we have a stationary point at $$ x \in \mathrm{V} $$, this means for all
 
 $$
  0 = \frac{\mathrm d}{\mathrm d x }\mathcal{F}( x + \varepsilon  h ) |_{\varepsilon = 0}  = \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t) + \varepsilon h(t), \dot{x}(t) + \varepsilon \dot{h}(t) \big)_\varepsilon = 0} \mathrm{d} t $$
+ \
+ \
+ \
 
+More is coming soon...

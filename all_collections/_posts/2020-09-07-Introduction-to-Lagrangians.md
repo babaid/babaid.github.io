@@ -6,5 +6,6 @@ tags: math physics calculus
 author: Ronnie
 ---
 
-#There will be soon smth. #
+
+# There will be soon smth.
 Lagrangians are nice :P

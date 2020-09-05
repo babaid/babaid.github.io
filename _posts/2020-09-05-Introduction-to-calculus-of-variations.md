@@ -24,7 +24,7 @@ $$
 
 $$ \mathrm{F}(x) = \int\limits_0^1 \mathcal{L}\big(t, x(t), \dot{x}(t)\big) \mathrm{d} t $$
 
-$$ \mathcal{L} \in \mathscr{C}^2 ([0, 1] \times \mathbb{R}^m \times \mathbb{R}^m, \mathbb{R}) $$ is called "Lagrange-function" or lagrangian, and $$ x : [0, 1] \rightarrow \mathbb{R}^m $$ is out of a suitable $$ \mathscr{C}^1 $$-functionspace $$ \mathrm{V} $$.
+$$ \mathcal{L} \in \mathscr{C}^2 ([0, 1] \times \mathbb{R}^m \times \mathbb{R}^m, \mathbb{R}) $$ is called "Lagrange-function" or lagrangian, and $$ x : [0, 1] \rightarrow \mathbb{R}^m $$ is out of a suitable $$ \mathscr{C}^1 $$-functionspace $$ \mathrm{V} $$ .
 
 Now we'll take a look at what happens if m=1 and $$ \mathrm{V} = \{ x \in  \mathscr{C}^2([ 0, 1])| \text{ x(0) = x(1) = 0} \} $$.
 

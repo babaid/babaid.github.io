@@ -1,4 +1,5 @@
 ---
+title: Introduction to calculus of variations
 layout: post
 ---
 

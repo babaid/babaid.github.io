@@ -4,7 +4,7 @@ layout: post
 ---
 
 
-\end{document}
+
 Hello and Welcome to another article!
 
 First, let us take a look to the math needed in this subject.

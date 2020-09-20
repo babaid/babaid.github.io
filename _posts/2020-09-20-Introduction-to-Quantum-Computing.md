@@ -2,8 +2,7 @@
 title: Introduction-to-Quantum-Computing
 layout: post
 ---
-\documentclass[12pt]{scrartcl}
-\begin{document}
+
 
 \end{document}
 Hello and Welcome to another article!
@@ -17,4 +16,3 @@ In quantum computation we use, instead of the regular bits wich have either the 
 where $$ |0\rangle $$  and $$ |1\rangle $$ are just two dimensional base vectors with
 $$ |0\rangle = \mqty{1 \\ 0} $$ and $$ |1\rangle = \mqty{0 \\ 1} $$ , |0\rangle, |1\rangle \in \mathbb{C}^2 $$
 
-\end{document}

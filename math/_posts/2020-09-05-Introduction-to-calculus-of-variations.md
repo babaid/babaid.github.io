@@ -36,10 +36,13 @@ Suppose we have a stationary point at \\(x \in \mathrm{V}\\), this means for all
 
  $$ 0 = \frac{\mathrm d}{\mathrm d \varepsilon } \mathcal{F} ( x + \varepsilon  h ) |_{\varepsilon = 0} = \frac{\mathrm d}{\mathrm d \varepsilon } \int\limits_{t_1}^{t_2} \mathcal{L} \big( t, x(t) + \varepsilon h(t) , \dot{x} (t) + \varepsilon \dot{h} (t) \big) |_{ \varepsilon = 0} \mathrm{d} t$$ 
  \
- 
+
  After pulling \\(\frac{\mathrm d}{\mathrm d \varepsilon }\\) inside the Integral it follows with the chain rule:\
 
  $$0 =\int\limits_{t_1}^{t_2}\Big[ \frac{\partial\mathcal{L}}{\partial x}h +\frac{\partial\mathcal{L}}{\partial \dot{x}}\dot{h} \Big] \mathrm{d}t=^1 \int\limits_{t_1}^{t_2}\frac{\partial\mathcal{L}}{\partial x}h\mathrm{d}t+\frac{\partial\mathcal{L}}{\partial\dot{x}}h\Big|_{t_1}^{t_2} -\int\limits_{t_1}^{t_2}\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{x}}hdt=^2 \int\limits_{t_1}^{t_2}h\Big[\frac{\partial\mathcal{L}}{\partial x}-\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{x}}\Big]dt$$
+
+\
+
  Where  at [1] we integrated by parts. Then at [2] we used that h vanishes at the boundaries.
  What we got are is called an Euler-Lagrange Equation:
 

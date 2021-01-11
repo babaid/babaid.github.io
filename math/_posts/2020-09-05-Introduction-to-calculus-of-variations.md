@@ -3,7 +3,7 @@ title: Introduction to calculus of variations
 layout: post
 
 ---
-Intro:
+A brief Introduction to the Euler-Lagrange equations.
 
 ...
 

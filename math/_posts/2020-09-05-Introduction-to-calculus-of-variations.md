@@ -45,7 +45,7 @@ Suppose we have a stationary point at \\(x \in \mathrm{V}\\), this means for all
 
 
  Where  at [1] we integrated by parts. Then at [2] we used that h vanishes at the boundaries.
- What we got are is called an Euler-Lagrange Equation:
+ What we got is called an Euler-Lagrange Equation:
 
  $$\frac{\partial\mathcal{L}}{\partial x}-\frac{d}{dt}\frac{\partial\mathcal{L}}{\partial\dot{x}}=0$$
 

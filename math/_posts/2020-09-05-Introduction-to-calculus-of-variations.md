@@ -65,10 +65,11 @@ This equation provides the solution for our extrem value problem.
 ## Warm-up
 Fermat´s Principle of Refraction/Snell´
 Consider two Isotropical, Optical Media as Shown below.
+
 <img src="refr.png"
      alt="Refraction"
-     style="float: center; margin-right: 10px;" />
-     
+     style="float: center; margin: 10px;" />
+
 The optical path length is given by:
 $$
 W = \int\limits_{P_1}^{P_2} ds n(s)
@@ -94,4 +95,5 @@ n_1 \frac{x_0}{\sqrt{{x_0}^2}+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{{a^´-x_0}^2}+ 
 $$
 Using simple trigonometry we get Snell´s law of refraction:
 n_1 Sin(\theta_1) = n_2 Sin(\theta_2)
+
 

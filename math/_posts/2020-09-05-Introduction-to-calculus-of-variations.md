@@ -65,7 +65,7 @@ This equation provides the solution for our extrem value problem.
 ## Warm-up
 ### Fermat´s Principle of Refraction/Snell´s law 
 
-Consider two Isotropical, Optical Media as Shown below.
+Consider two Isotropic, Optical Media as Shown below.
 
 <img src="refr.png"
      alt="Refraction"
@@ -86,11 +86,11 @@ s_2 = \sqrt{(a^´-x_0)^2+ {b^´}^2}
 $$
 Our equation is now in of following Form:
 $$
-W[x_0] = n_1  \sqrt{x_0^2+ b^2} +n_2 \sqrt{(a^´-x_0)^2+ b^´^2}
+W[x_0] = n_1  \sqrt{x_0^2+ b^2} +n_2 \sqrt{(a^´-x_0)^2+ {b^´}^2}
 $$
-We now need the Derivative of this expression to be 0. Derivation gives us:
+We need the Derivative of this expression to be 0. Derivation gives us:
 $$
-n_1 \frac{x_0}{\sqrt{x_0^2+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{(a^´-x_0)^2+ b^´^2}}
+n_1 \frac{x_0}{\sqrt{x_0^2+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{(a^´-x_0)^2+ {b^´}^2}}
 $$
 Using simple trigonometry we get Snell´s law of refraction:
 $$

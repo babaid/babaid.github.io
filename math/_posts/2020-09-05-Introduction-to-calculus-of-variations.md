@@ -69,7 +69,7 @@ Consider two Isotropic, Optical Media as Shown below.
 
 <a href="https://github.com/babaid/babaid.github.io/blob/gh-pages/images/refr.png"
      alt="Refraction"
-     style="float: center; margin-left : 10px;"><\a>
+     style="float: center; margin-left : 10px;">
 
 The optical path length is given by:
 

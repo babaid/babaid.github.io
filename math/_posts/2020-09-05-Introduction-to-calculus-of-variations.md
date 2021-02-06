@@ -68,7 +68,7 @@ Consider two Isotropical, Optical Media as Shown below.
 
 <img src="refr.png"
      alt="Refraction"
-     style="float: center; margin: 10px;" />
+     style="float: center; margin-right : 10px;"/>
 
 The optical path length is given by:
 $$

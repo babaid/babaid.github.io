@@ -67,7 +67,7 @@ This equation provides the solution for our extrem value problem.
 
 Consider two Isotropic, Optical Media as Shown below.
 
-<img src="images/refr.png"
+<img src="./refr.png"
      alt="Refraction"
      style="float: center; margin-left : 10px;"/>
 

@@ -81,15 +81,15 @@ $$
 s_1 = \sqrt{{x_0}^2+ b^2}
 $$
 $$
-s_2 = \sqrt{{a^´-x_0}^2+ {b^´}^2}
+s_2 = \sqrt{(a^´-x_0)^2+ {b^´}^2}
 $$
 Our equation is now in of following Form:
 $$
-W[x_0] = n_1  \sqrt{{x_0}^2+ b^2} +n_2 \sqrt{{a^´-x_0}^2+ {b^´}^2}
+W[x_0] = n_1  \sqrt{{x_0}^2+ b^2} +n_2 \sqrt{(a^´-x_0)^2+ {b^´}^2}
 $$
 We now need the Derivative of this expression to be 0. Derivation gives us:
 $$
-n_1 \frac{x_0}{\sqrt{{x_0}^2+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{{a^´-x_0}^2+ {b^´}^2}}
+n_1 \frac{x_0}{\sqrt{{x_0}^2+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{(a^´-x_0)^2+ {b^´}^2}}
 $$
 Using simple trigonometry we get Snell´s law of refraction:
 $$

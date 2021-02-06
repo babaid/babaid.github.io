@@ -63,12 +63,13 @@ This equation provides the solution for our extrem value problem.
 
 # Application Examples
 ## Warm-up
-Fermat´s Principle of Refraction/Snell´
+### Fermat´s Principle of Refraction/Snell´s law 
+
 Consider two Isotropical, Optical Media as Shown below.
 
 <img src="refr.png"
      alt="Refraction"
-     style="float: center; margin-right : 10px;"/>
+     style="float: center; margin-left : 10px;"/>
 
 The optical path length is given by:
 $$

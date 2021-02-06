@@ -72,28 +72,27 @@ Consider two Isotropical, Optical Media as Shown below.
 
 The optical path length is given by:
 $$
-W = \int\limits_{P_1}^{P_2} ds n(s)
+W = \int\limits_{P_1}^{P_2} ds * n(s)
 $$
-In this particular case, the integral end up to be a simple sum:
-
-\\(W = n_1 s_1 + n_2 s_2\\)
-
+In this particular case, the integral end up to be a simple sum: \\( W = n_1 s_1 + n_2 s_2 \\)
 We now can calculate \\(s_1\\) and \\(s_2\\) using Pythagoras:
+
 $$
-s_1 = \sqrt{{x_0}^2}+ b^2}
+s_1 = \sqrt{{x_0}^2+ b^2}
 $$
 $$
-s_2 = \sqrt{{a^´-x_0}^2}+ {b^´}^2}
+s_2 = \sqrt{{a^´-x_0}^2+ {b^´}^2}
 $$
 Our equation is now in of following Form:
 $$
-W[x_0] = n_1  \sqrt{{x_0}^2}+ b^2} +n_2 \sqrt{{a^´-x_0}^2}+ {b^´}^2}
+W[x_0] = n_1  \sqrt{{x_0}^2+ b^2} +n_2 \sqrt{{a^´-x_0}^2+ {b^´}^2}
 $$
 We now need the Derivative of this expression to be 0. Derivation gives us:
 $$
-n_1 \frac{x_0}{\sqrt{{x_0}^2}+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{{a^´-x_0}^2}+ {b^´}^2}}
+n_1 \frac{x_0}{\sqrt{{x_0}^2+ b^2}} - n_2 \frac{a^´-x_0}{\sqrt{{a^´-x_0}^2+ {b^´}^2}}
 $$
 Using simple trigonometry we get Snell´s law of refraction:
+$$
 n_1 Sin(\theta_1) = n_2 Sin(\theta_2)
-
+$$
 

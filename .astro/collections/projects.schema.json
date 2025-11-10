@@ -30,7 +30,7 @@
               "format": "unix-time"
             }
           ],
-          "default": "2025-11-10T10:24:51.941Z"
+          "default": "2025-11-10T11:28:08.746Z"
         },
         "categories": {
           "anyOf": [

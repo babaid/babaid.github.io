@@ -1,0 +1,114 @@
+{
+  "$ref": "#/definitions/projects",
+  "definitions": {
+    "projects": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "default": "Untitled Project"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": "No description provided"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ],
+          "default": "2025-11-10T10:24:51.941Z"
+        },
+        "categories": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": []
+        },
+        "repositoryUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "projectUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "image": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageAlt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hideCoverImage": {
+          "type": "boolean"
+        },
+        "hideTOC": {
+          "type": "boolean"
+        },
+        "draft": {
+          "type": "boolean"
+        },
+        "noIndex": {
+          "type": "boolean"
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

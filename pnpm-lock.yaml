@@ -65,6 +65,9 @@ importers:
       mermaid:
         specifier: ^11.1.0
         version: 11.12.0
+      pnpm:
+        specifier: ^10.21.0
+        version: 10.21.0
       rehype-autolink-headings:
         specifier: ^7.1.0
         version: 7.1.0
@@ -4070,6 +4073,11 @@ packages:
 
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
+
+  pnpm@10.21.0:
+    resolution: {integrity: sha512-2jM3Jn5AD909R5psaAeaxtsB2MpPZ1cgg+cid1p5Z4inqZVmE3SeAA+sINQktZT3p5Gl9OLhNYHF75R/JpaKQA==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   points-on-curve@0.2.0:
     resolution: {integrity: sha512-0mYKnYYe9ZcqMCWhUjItv/oHjvgEsfKvnUTg8sAtnHr3GVy7rGkXCb6d5cSyqrWqL4k81b9CPg3urd+T7aop3A==}
@@ -10243,6 +10251,8 @@ snapshots:
       confbox: 0.2.2
       exsolve: 1.0.7
       pathe: 2.0.3
+
+  pnpm@10.21.0: {}
 
   points-on-curve@0.2.0: {}
 

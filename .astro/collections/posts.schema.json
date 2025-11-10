@@ -1,0 +1,97 @@
+{
+  "$ref": "#/definitions/posts",
+  "definitions": {
+    "posts": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "default": "Untitled Post"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": "No description provided"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ],
+          "default": "2025-11-10T10:24:51.940Z"
+        },
+        "tags": {
+          "anyOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "draft": {
+          "type": "boolean"
+        },
+        "image": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageOG": {
+          "type": "boolean"
+        },
+        "imageAlt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hideCoverImage": {
+          "type": "boolean"
+        },
+        "hideTOC": {
+          "type": "boolean"
+        },
+        "targetKeyword": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "noIndex": {
+          "type": "boolean"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

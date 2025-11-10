@@ -1,0 +1,68 @@
+{
+  "$ref": "#/definitions/pages",
+  "definitions": {
+    "pages": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "default": "Untitled Page"
+        },
+        "description": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": "No description provided"
+        },
+        "draft": {
+          "type": "boolean"
+        },
+        "lastModified": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "image": {
+          "anyOf": [
+            {},
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageAlt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hideCoverImage": {
+          "type": "boolean"
+        },
+        "hideTOC": {
+          "type": "boolean"
+        },
+        "noIndex": {
+          "type": "boolean"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

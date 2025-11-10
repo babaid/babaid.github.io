@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "23369a9348d240f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4c00b86b0a99aa0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d09932e651c2ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/obsidian-embeds-demo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "obsidian-embeds-demo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd9bc9494b7eeaca",
+    "type": "split",
+    "children": [
+      {
+        "id": "9aa2026ec13bacbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a97a9e5797b624b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fc355f2880126ec2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "95010a6728fc1a2f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b38abb53e80ffd00",
+    "type": "split",
+    "children": [
+      {
+        "id": "719f503ff69b50e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cb695ac84b82975",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/obsidian-embeds-demo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for obsidian-embeds-demo"
+            }
+          },
+          {
+            "id": "6a39261637afa4f1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/obsidian-embeds-demo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from obsidian-embeds-demo"
+            }
+          },
+          {
+            "id": "fb995aece5bd66eb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6dc5dabf9558e908",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/obsidian-embeds-demo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of obsidian-embeds-demo"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-git:Open Git source control": false,
+      "homepage:Open homepage": false,
+      "iconic:Open rulebook": false,
+      "seo:Open SEO audit panel": false,
+      "astro-modular-settings:Astro Modular Settings": false
+    }
+  },
+  "active": "2d09932e651c2ce3",
+  "lastOpenFiles": [
+    "posts/getting-started.md",
+    "posts/formatting-reference.md",
+    "docs/api.md",
+    "docs/attachments/obsidian-cover.png",
+    "docs/attachments/astro-modular-configuration.png",
+    "bases/home.base"
+  ]
+}
